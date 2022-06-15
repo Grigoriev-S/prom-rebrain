@@ -1,0 +1,53 @@
+Jun 14 21:46:01 sbg-test-node systemd[1]: Started Node Exporter.
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.102Z caller=node_exporter.go:182 level=info msg="Starting node_exporter" version="(version=1.3.1, branch=HEAD, revision=a2321e7b940ddcff26873612bccdf7cd4c42b6b6)"
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.102Z caller=node_exporter.go:183 level=info msg="Build context" build_context="(go=go1.17.3, user=root@243aafa5525c, date=20211205-11:09:49)"
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=filesystem_common.go:111 level=info collector=filesystem msg="Parsed flag --collector.filesystem.mount-points-exclude" flag=^/(dev|proc|run/credentials/.+|sys|var/lib/docker/.+)($|/)
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=filesystem_common.go:113 level=info collector=filesystem msg="Parsed flag --collector.filesystem.fs-types-exclude" flag=^(autofs|binfmt_misc|bpf|cgroup2?|configfs|debugfs|devpts|devt>
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:108 level=info msg="Enabled collectors"
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=arp
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=bcache
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=bonding
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=btrfs
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=conntrack
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=cpu
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=cpufreq
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=diskstats
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=dmi
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=edac
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=entropy
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=fibrechannel
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=filefd
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=filesystem
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=hwmon
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=infiniband
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=interrupts
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=ipvs
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=loadavg
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=mdadm
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=meminfo
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=netclass
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=netdev
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=netstat
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=nfs
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=nfsd
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=nvme
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=os
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=powersupplyclass
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=pressure
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=rapl
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=schedstat
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=sockstat
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.103Z caller=node_exporter.go:115 level=info collector=softnet
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=stat
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=tapestats
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=textfile
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=thermal_zone
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=time
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=timex
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=udp_queues
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=uname
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=vmstat
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=xfs
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:115 level=info collector=zfs
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.104Z caller=node_exporter.go:199 level=info msg="Listening on" address=:9100
+Jun 14 21:46:01 sbg-test-node node_exporter[13183]: ts=2022-06-14T21:46:01.105Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false

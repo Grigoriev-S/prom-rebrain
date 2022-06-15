@@ -1,0 +1,10 @@
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:277 level=info msg="Starting mysqld_exporter" version="(version=0.14.0, branch=HEAD, revision=ca1b9af82a471c849c529eb8aadb1aac73e7b68c)"
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:278 level=info msg="Build context" (gogo1.17.8,userroot@401d370ca42e,date20220304-16:25:15)=(MISSING)
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:293 level=info msg="Scraper enabled" scraper=global_status
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:293 level=info msg="Scraper enabled" scraper=global_variables
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:293 level=info msg="Scraper enabled" scraper=slave_status
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:293 level=info msg="Scraper enabled" scraper=info_schema.innodb_cmp
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:293 level=info msg="Scraper enabled" scraper=info_schema.innodb_cmpmem
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:293 level=info msg="Scraper enabled" scraper=info_schema.query_response_time
+ts=2022-06-15T05:55:03.486Z caller=mysqld_exporter.go:303 level=info msg="Listening on address" address=:9104
+ts=2022-06-15T05:55:03.488Z caller=tls_config.go:195 level=info msg="TLS is disabled." http2=false
